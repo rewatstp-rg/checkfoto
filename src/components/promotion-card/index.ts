@@ -1,0 +1,1 @@
+export { default as PromotionList } from './promotion-list';

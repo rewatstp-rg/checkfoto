@@ -1,0 +1,1 @@
+import{j as t}from"./mui-Xuu5xGp4.js";import{$ as o}from"./index-3XNq9V8n.js";import"./react-_bfpr9lk.js";import"./vendor-jE5rBi_1.js";function e(){return t.jsx("div",{children:"CustomPhotoView"})}function n(){return t.jsxs(t.Fragment,{children:[t.jsx(o,{children:t.jsx("title",{children:" Checkfoto : Custom "})}),t.jsx(e,{})]})}export{n as default};

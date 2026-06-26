@@ -1,0 +1,1 @@
+function c(){return{code:"en-US",currency:"USD"}}function m(r){const{code:n,currency:e}=c();if(!r)return"";const t=Number(r);return new Intl.NumberFormat(n,{currency:e,minimumFractionDigits:2,maximumFractionDigits:2}).format(t)}export{m as f};

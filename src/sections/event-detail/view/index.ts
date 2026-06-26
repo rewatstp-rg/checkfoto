@@ -1,0 +1,1 @@
+export { default as EventDetailDetailsView } from './event-detail-view';

@@ -1,0 +1,1 @@
+export { default as TermsOfUseView } from './terms-of-use-view';

@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Event pages (SEO สำคัญ)
+Allow: /event/
+
+# Block API & system paths
+Disallow: /api/
+Disallow: /auth/
+Disallow: /login/
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://checkfoto.com/sitemap.xml

@@ -1,0 +1,1 @@
+import{a$ as n,b0 as o,b1 as r,N as c,aZ as t,a_ as S}from"./index-3XNq9V8n.js";const g=e=>{const s=n("i18nextLng"),a=e||(s==="en"?o.success:r.success);c(a,{variant:"success"})},E=e=>{const s=n("i18nextLng"),a=e||(s==="en"?t.seriveUnSuccess:S.seriveUnSuccess);c(a,{variant:"error"})};export{E as a,g as e};

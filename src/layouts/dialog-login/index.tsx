@@ -1,0 +1,1 @@
+export { default as DialogLogin } from './dialog-login';

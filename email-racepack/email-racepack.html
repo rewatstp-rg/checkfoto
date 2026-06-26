@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Email</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="margin:0; padding:0; background-color:#ffffff; font-family:Arial, sans-serif;">
+
+  <!-- Wrapper Table -->
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center">
+    <tr>
+      <td align="center">
+
+        <!-- Main Content Table -->
+        <table width="860" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff"
+          style="max-width:860px; width:100%;">
+          <tr>
+            <td style="padding:20px; text-align:left; font-size:14px; line-height:20px; color:#000000;">
+
+              ขอบคุณที่ทำการสั่งซื้อและลงทะเบียนเข้าร่วมกิจกรรม
+              <b>[EVENT_NAME_TH]</b><br>
+              <b>Thank you for placing your order and registering for [EVENT_NAME_EN].</b>
+
+            </td>
+          </tr>
+
+          <!-- Banner -->
+          <tr>
+            <td align="center" style="padding:20px;">
+              <img src="[EVENT_IMAGE]" alt="Image" width="100%" style="max-width:560px; display:block; border:0;">
+              <!-- <img src="https://run.checkrace.com/shared-image/email-image/20250922152916_GR25_KV_1200x1800-New.jpg" alt="Image" width="100%" style="max-width:560px; display:block; border:0;"> -->
+            </td>
+          </tr>
+
+          <!-- Content -->
+          <tr>
+            <td style="padding:20px; font-size:14px; line-height:20px; color:#000000;">
+
+              <p><strong>หมายเลขคำสั่งซื้อ (Order Number):</strong> [ORDER_NUMBER]</p>
+              <hr style="border:none; border-top:1px solid #ddd; margin:20px 0;">
+
+              <p>
+                <strong>1. หมายเลข BIB</strong>
+              </p>
+
+              [RUNNER_ITEM_TH]
+              <!-- <p>ผู้สมัครคนที่ 1</p>
+              <ul style="padding-left:20px; margin:0;">
+                <li>ชื่อ:</li>
+                <li>นามสกุล:</li>
+                <li>BIB:</li>
+              </ul> -->
+
+              <!-- <p>ผู้สมัครคนที่ 2</p>
+              <ul style="padding-left:20px; margin:0;">
+                <li>ชื่อ:</li>
+                <li>นามสกุล:</li>
+                <li>BIB:</li>
+              </ul> -->
+
+              <hr style="border:none; border-top:1px solid #ddd; margin:20px 0;">
+
+              <p><strong>2. การรับ Race Pack</strong></p>
+              <ul style="padding-left:20px; margin:0;">
+                [RACE_PACK_TH]
+                <!-- จัดส่ง -->
+                <!-- <li>
+                  <strong>กรณีเลือกจัดส่งทางไปรษณีย์</strong>
+                  <ul style="padding-left:20px; margin:0;">
+                    <li>เลขพัสดุ: [TRACKING_NUMBER]</li>
+                    <li>บริษัทขนส่ง: [TRACKING_PROVIDER]</li>
+                    <li>ลิงก์ติดตาม: [TRACKING_URL]</li>
+                  </ul>
+                </li> -->
+
+                  <!-- รับเอง -->
+                <!-- <li>
+                  <strong>กรณีเลือกรับด้วยตนเองหน้างาน</strong>
+                  <ul style="padding-left:20px; margin:0;">
+                    <li>วันเวลาและสถานที่: [ใส่รายละเอียด]</li>
+                    <li>โปรดแสดง <b>QR Code</b> เพื่อรับ Race Pack</li>
+                    <li>
+                      <img src="[RACE_PACK_QR_CODE]" alt="Image" width="100%" style="max-width:320px; display:block; border:0;">
+                    </li>
+                  </ul>
+                </li> -->
+              </ul>
+
+              <hr style="border:none; border-top:1px solid #ddd; margin:20px 0;">
+
+              <p><strong>3. คู่มือนักวิ่ง (Runner’s Guide)</strong><br>
+                สามารถดูได้ที่ลิงก์/ไฟล์แนบด้านล่าง:<br>
+                <!-- [แทรกรูปภาพคู่มือนักวิ่ง + ลิงก์] -->
+                 [RUNNER_GUIDE_TH]
+              </p>
+
+              <hr style="border:none; border-top:1px solid #ddd; margin:20px 0;">
+
+              <p>ขอบคุณค่ะ<br>[TEAM_NAME]</p>
+
+              <h2 style="font-size:16px; margin-top:30px;">English Version</h2>
+
+              <p><strong>Order Number:</strong> [ORDER_NUMBER]</p>
+              <hr style="border:none; border-top:1px solid #ddd; margin:20px 0;">
+
+              <p><strong>1. BIB NUMBER</strong></p>
+              [RUNNER_ITEM_EN]
+              <!-- <p>Participant 1</p>
+              <ul style="padding-left:20px; margin:0;">
+                <li>First Name:</li>
+                <li>Last Name:</li>
+                <li>BIB:</li>
+              </ul>
+
+              <p>Participant 2</p>
+              <ul style="padding-left:20px; margin:0;">
+                <li>First Name:</li>
+                <li>Last Name:</li>
+                <li>BIB:</li>
+              </ul> -->
+
+              <hr style="border:none; border-top:1px solid #ddd; margin:20px 0;">
+
+              <p><strong>2. Race Pack Collection</strong></p>
+           
+              <ul style="padding-left:20px; margin:0;">
+                   [RACE_PACK_EN]
+
+                <!-- จัดส่ง -->
+                <!-- <li>
+                  <strong>If you selected home delivery</strong>
+                  <ul style="padding-left:20px; margin:0;">
+                    <li>Tracking Number: [TRACKING_NUMBER]</li>
+                    <li>Courier Company: [TRACKING_PROVIDER]</li>
+                    <li>Tracking Link: [TRACKING_URL]</li>
+                  </ul>
+                </li> -->
+
+                <!-- รับเอง -->
+                <!-- <li>
+                  <strong>If you selected on-site collection</strong>
+                  <ul style="padding-left:20px; margin:0;">
+                    <li>Date & Venue Information: [Insert details]</li>
+                    <li>Please present your <b>QR Code</b> at the Race Pack Collection point</li>
+                    <li>
+                      <img src="[RACE_PACK_QR_CODE]" alt="Image" width="100%" style="max-width:320px; display:block; border:0;">
+                    </li>
+                  </ul>
+                </li> -->
+              </ul>
+
+              <hr style="border:none; border-top:1px solid #ddd; margin:20px 0;">
+
+              <p><strong>3. Runner’s Guide</strong><br>
+                Please find the Runner’s Guide attached/linked below:<br>
+                 [RUNNER_GUIDE_EN]
+              </p>
+
+              <hr style="border:none; border-top:1px solid #ddd; margin:20px 0;">
+
+              <p>Thank you,<br>[TEAM_NAME]</p>
+
+            </td>
+          </tr>
+        </table>
+        <!-- End Main Content Table -->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

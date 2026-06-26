@@ -1,0 +1,72 @@
+/* public\fonts\index.css */
+
+@font-face {
+   font-family: 'line-seedsans-thin';
+   src: url('./TTF/SukhumvitSet-Thin.ttf') format('truetype');
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'line-seedsans-regular';
+   src: url('./TTF/SukhumvitSet-Light.ttf') format('truetype');
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'line-seedsans-bold';
+   src: url('./TTF/SukhumvitSet-Medium.ttf') format('truetype');
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'line-seedsans-extra-bold';
+   src: url('./TTF/SukhumvitSet-SemiBold.ttf') format('truetype');
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'line-seedsans-heavy';
+   src: url('./TTF/SukhumvitSet-SemiBold.ttf') format('truetype');
+   font-display: swap;
+}
+
+/* @font-face {
+   font-family: 'line-seedsans-thin';
+   src: url('./EOT/LINESeedSansTH_W_Th.eot');
+   src: url('./EOT/LINESeedSansTH_W_Th.eot?#iefix') format('embedded-opentype'),
+      url('./WOFF2/LINESeedSansTH_W_Th.woff2') format('woff2'),
+      url('./WOFF/LINESeedSansTH_W_Bd.woff') format('woff'),
+}
+
+@font-face {
+   font-family: 'line-seedsans-regular';
+   src: url('./EOT/LINESeedSansTH_W_Rg.eot');
+   src: url('./EOT/LINESeedSansTH_W_Rg.eot?#iefix') format('embedded-opentype'),
+      url('./WOFF2/LINESeedSansTH_W_Rg.woff2') format('woff2'),
+      url('./WOFF/LINESeedSansTH_W_Rg.woff') format('woff'),
+}
+
+@font-face {
+   font-family: 'line-seedsans-bold';
+   src: url('./EOT/LINESeedSansTH_W_Bd.eot');
+   src: url('./EOT/LINESeedSansTH_W_Bd.eot?#iefix') format('embedded-opentype'),
+      url('./WOFF2/LINESeedSansTH_W_Bd.woff2') format('woff2'),
+      url('./WOFF/LINESeedSansTH_W_Bd.woff') format('woff'),
+}
+
+@font-face {
+   font-family: 'line-seedsans-extra-bold';
+   src: url('./EOT/LINESeedSansTH_W_XBd.eot');
+   src: url('./EOT/LINESeedSansTH_W_XBd.eot?#iefix') format('embedded-opentype'),
+      url('./WOFF2/LINESeedSansTH_W_XBd.woff2') format('woff2'),
+      url('./WOFF/LINESeedSansTH_W_XBd.woff') format('woff'),
+}
+
+@font-face {
+   font-family: 'line-seedsans-heavy';
+   src: url('./EOT/LINESeedSansTH_W_He.eot');
+   src: url('./EOT/LINESeedSansTH_W_He.eot?#iefix') format('embedded-opentype'),
+      url('./WOFF2/LINESeedSansTH_W_He.woff2') format('woff2'),
+      url('./WOFF/LINESeedSansTH_W_He.woff') format('woff'),
+}
+ */

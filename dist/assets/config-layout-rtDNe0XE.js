@@ -1,0 +1,1 @@
+import{r as e}from"./react-_bfpr9lk.js";import{u as r}from"./vendor-jE5rBi_1.js";function E(s=0,c){const{scrollY:o}=r(c),[t,a]=e.useState(!1),u=e.useCallback(()=>{o.on("change",l=>{l>s?a(!0):a(!1)})},[o,s]);return e.useEffect(()=>{u()},[u]),e.useMemo(()=>t,[t])}const S={H_MOBILE:64,H_DESKTOP:80,H_DESKTOP_OFFSET:80},i={W_VERTICAL:280,W_MINI:88};export{S as H,i as N,E as u};

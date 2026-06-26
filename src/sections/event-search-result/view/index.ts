@@ -1,0 +1,1 @@
+export { default as EventSearchResultView } from './event-search-result';

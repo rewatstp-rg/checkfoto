@@ -1,0 +1,1 @@
+export { default as cardCustom } from './card-custom';
