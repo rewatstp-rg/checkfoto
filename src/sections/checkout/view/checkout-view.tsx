@@ -31,64 +31,6 @@ import PaymentSummary from "../payment-summary";
 import { PaymentCouponCode } from "../payemnt-coupon-code";
 import CheckoutCartPhotoList from "../checkout-cart-photo-list";
 
-// const mockupPhotoOrder = [
-//     {
-//         "id": "58295",
-//         "url": "https://checkrace-image-sg-thumbnail.s3.ap-southeast-1.amazonaws.com/thumbnail-852219ee-37f6-4260-bc0d-82240323b4d5-KMN_00578.JPG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260626T031555Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAYK46U7VIB7HDRCOU%2F20260626%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Expires=10800&X-Amz-Signature=db7fcb9517efa8bf5c2994ea77dd9b5f517fc54540e645bceb5b95a7961ff23a",
-//         "photoTypeDescTh": "ซื้อรูป 3 รูปในราคาเพียง 250 บาท",
-//         "photoTypeDescEn": "Buy Photo 3 For 250 THB",
-//         "type": "SMALL",
-//         "photoPrice": 100,
-//         "photoPriceCode": "PP00009",
-//         "uid": "852219ee-37f6-4260-bc0d-82240323b4d5",
-//         "imageType": "NORMAL"
-//     },
-//     {
-//         "id": "59456",
-//         "url": "https://checkrace-image-sg-thumbnail.s3.ap-southeast-1.amazonaws.com/thumbnail-695eb7b1-99f1-4813-9693-c1c7018df487-KMN_00931.JPG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260626T031555Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAYK46U7VIB7HDRCOU%2F20260626%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Expires=10800&X-Amz-Signature=c194e9a9f964fe1f74f12b1921305d6777f1ea7d64df059ee9caa8ffa282019b",
-//         "photoTypeDescTh": "ซื้อรูป 3 รูปในราคาเพียง 250 บาท",
-//         "photoTypeDescEn": "Buy Photo 3 For 250 THB",
-//         "type": "SMALL",
-//         "photoPrice": 100,
-//         "photoPriceCode": "PP00009",
-//         "uid": "695eb7b1-99f1-4813-9693-c1c7018df487",
-//         "imageType": "NORMAL"
-//     },
-//     {
-//         "id": "170226",
-//         "url": "https://checkrace-image-sg-thumbnail.s3.ap-southeast-1.amazonaws.com/thumbnail-55ef6bd9-5ea5-42fe-8763-7183e3634c65-ADD01099.JPG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260626T031555Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAYK46U7VIB7HDRCOU%2F20260626%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Expires=10800&X-Amz-Signature=b4ef8871f66499e987af81ea7b7c8b1c91e5e442b3cb96026af810ec3940b536",
-//         "photoTypeDescTh": "ซื้อรูป 3 รูปในราคาเพียง 250 บาท",
-//         "photoTypeDescEn": "Buy Photo 3 For 250 THB",
-//          "type": "SMALL",
-//         "photoPrice": 100,
-//         "photoPriceCode": "PP00009",
-//         "uid": "55ef6bd9-5ea5-42fe-8763-7183e3634c65",
-//         "imageType": "NORMAL"
-//     },
-//     {
-//         "id": "202645",
-//         "url": "https://checkrace-image-sg-thumbnail.s3.ap-southeast-1.amazonaws.com/thumbnail-98348ebb-f431-4264-987c-51c3917d8bfa-ADD03073.JPG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260626T031635Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAYK46U7VIB7HDRCOU%2F20260626%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Expires=10800&X-Amz-Signature=a8aaa3a798ec1ccc8a7d66ac61de127cb4df448051fc026797aa011b35289bd9",
-//         "photoTypeDescTh": "รูปขนาดเล็ก 2250x1500  pixels",
-//         "photoTypeDescEn": "Small image size 2250x1500 pixels",
-//         "type": "SMALL",
-//         "photoPrice": 100,
-//         "photoPriceCode": "PP00009",
-//         "uid": "98348ebb-f431-4264-987c-51c3917d8bfa",
-//         "imageType": "NORMAL"
-//     },
-//     {
-//         "id": "58229",
-//         "url": "https://checkrace-image-sg-thumbnail.s3.ap-southeast-1.amazonaws.com/thumbnail-852219ee-37f6-4260-bc0d-82240323b4d5-KMN_00578.JPG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260626T032407Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAYK46U7VIB7HDRCOU%2F20260626%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Expires=10800&X-Amz-Signature=07441346bfad409511afd3ac783affece0d4dc189b986dd5a737d5356accc013",
-//         "photoTypeDescTh": "ซื้อตามจำนวนรูป",
-//         "photoTypeDescEn": "Buy For Photo Limit",
-//         "type": "LIMIT_LENGTH_PHOTO",
-//         "photoPrice": 300,
-//         "photoPriceCode": "PP00097",
-//         "uid": "852219ee-37f6-4260-bc0d-82240323b4d5",
-//         "imageType": "NORMAL"
-//     },
-// ];
-
 export default function CheckoutView() {
 
     const params = useParams();
